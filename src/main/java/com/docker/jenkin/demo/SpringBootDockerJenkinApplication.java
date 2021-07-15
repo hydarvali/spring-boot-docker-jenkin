@@ -12,10 +12,12 @@ public class SpringBootDockerJenkinApplication {
 	
 	public void init() {
 		logger.info("Application and init() method started...");
+		logger.info("Added jenkin pipeline and init() method started...");
 	}
 
 	public static void main(String[] args) {
 		logger.info("Application and main() method started...");
+		logger.info("Added jenkin pipeline and main() method started...");
 		SpringApplication.run(SpringBootDockerJenkinApplication.class, args);
 	}
 

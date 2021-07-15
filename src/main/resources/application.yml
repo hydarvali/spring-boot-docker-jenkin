@@ -1,0 +1,16 @@
+spring:
+ boot:
+   admin:
+     mail:
+       to: ${spring.mail.username}, hydarmca@gmail.com
+       from: ${spring.mail.username} 
+ mail:
+   host: smtp.gmail.com
+   username: valisyed34@gmail.com
+   password: iamindian
+   port: 465
+   protocol: smtp
+   properties:
+     "mail.transport.protocol": smtp
+     "mail.smtp.auth": true
+     "mail.smtp.starttls.enable": true
